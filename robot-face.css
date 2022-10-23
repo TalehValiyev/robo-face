@@ -1,0 +1,126 @@
+.head {
+    margin: 100px 0 0 40px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 7px solid rgb(155, 155, 155);
+    border-radius: 70px;
+}
+
+.light {
+    position: relative;
+}
+
+.bulb {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    left: 165px;
+    bottom: 25px;
+    z-index: 1;
+}
+
+.stick {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: rgb(110, 110, 110);
+    left: 180px;
+    bottom: 7px;
+}
+
+.left-ear {
+    position: absolute;
+    top: 250px;
+    left: 18px;
+    width: 30px;
+    height: 90px;
+    background-color: red;
+}
+
+.right-ear {
+    position: absolute;
+    top: 250px;
+    left: 462px;
+    width: 30px;
+    height: 90px;
+    background-color: red;
+}
+
+.left-eye {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 15px solid rgb(0, 110, 255);
+    border-radius: 10px;
+    border-radius: 50%;
+    bottom: 320px;
+    left: 100px;
+    background-color: aliceblue;
+}
+
+.right-eye {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 15px solid rgb(0, 110, 255);
+    border-radius: 10px;
+    border-radius: 50%;
+    bottom: 320px;
+    left: 270px;
+    background-color: antiquewhite;
+}
+
+.nose {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    bottom: 270px;
+    left: 200px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.mouth {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: silver;
+    bottom: 180px;
+    left: 130px;
+    border: 3px solid darkslategray;
+    border-radius: 40px;
+}
+.tooth  {
+    position: relative;
+}
+.tooth .first, .second, .third, .fourth{
+    position: absolute;
+    width: 10px;
+    height: 60px;
+   
+}
+.first {
+    left: 210px;
+    bottom: 40px;
+    background-color: black;
+}
+.second{
+    left: 151px;
+    bottom: 40px;
+    background-color: rgb(0, 0, 0);
+}
+.third{
+    left: 270px;
+    bottom: 40px;
+    background-color: rgb(26, 11, 0);
+}
+.fourth{
+    left: 320px;
+    bottom: 40px;
+    background-color: rgb(26, 11, 0);
+}
